@@ -1,0 +1,13 @@
+Year 1 - Day 1 (2025 02 22)
+
+Mathematics:
+1. Direct proof
+2. Counterexamples
+3. Peano axioms (being introduced)
+4. Contrapositive
+5. Contradiction
+6. Mathematicial Induction
+
+Computer Science:
+1. Pure functions introduction (Haskell)
+2.  
