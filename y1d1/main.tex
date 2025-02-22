@@ -30,14 +30,24 @@ Therefore, $\sqrt{2}$ must be irrational.
 \textbf{Prove that if $n^2$ is even, then n is even.}\\
 \textbf{Solution:}\\
 Prove by contrapositve:
-Rewrite the predicate as "if n is odd, then $n^2$ is odd."
+Rewrite the predicate as ``if n is odd, then $n^2$ is odd.``
 Since n is odd, there exists an integer k such that n = 2k + 1. \\
 \[n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1\]
 Since $2k^2 + 2k$ is an integer, $n^2$ must be odd, proving the predicate. Therefore, the  original predicate is proven.
 
 \section*{Problem #4}
-
-
+\textbf{Show that 1 + 2 + 3 + ... + n = $\frac{n(n+1)}{2}$}\\
+\textbf{Solution:}
+Prove by mathematical induction.\\
+1. Base case, where n = 1, $\frac{1(1+1)}{2} = 1$ (P(n)).\\
+2. Induction  Hypothesis:\\
+Assume P(n) is true for an arbitrary natural number k, that:\\
+1 + 2 + 3 + ... + k = $\frac{k(k+1)}{2}$ = P(k). \\
+3. Incduction steps:\\
+Prove that if P(k) is true, then P(k + 1) must also be true.\\
+1 + 2 + 3 + ... + k + (k + 1) = $\frac{k(k+1)}{2} + k + 1$\\
+$\frac{k(k+1)}{2} + k + 1 = (\frac{k}{2} + 1)(k + 1) = \frac{k+2}{2}(k + 1) = \frac{k + 2(k + 1)}{2} = \frac{(k + 1)((k + 1) + 1)}{2}$ \\
+Since P(k + 1) is true, the original predicate is proved. \\
 
 \end{document}
 
